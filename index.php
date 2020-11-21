@@ -19,7 +19,7 @@ var param = 10;
         var produtos = [];
         dados.push(JSON.parse(data));
         /* Carrega os dados da tabela */
-        dados.forEach((elem,index) => {
+        dados.forEach((elem) => {
             for(i = 0; i <= (elem.length-1); i++){
                 produtos.push(`
                     <tr>
